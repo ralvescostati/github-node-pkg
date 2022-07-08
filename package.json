@@ -1,0 +1,16 @@
+{
+  "name": "@ralvescostati/githubjs",
+  "version": "1.0.0",
+  "repository": "https://github.com/ralvescostati/github_js_pacakges",
+  "homepage": "https://github.com/ralvescostati/github_js_pacakges",
+  "author": "ralvescosta <rafael.rac.mg@gmail.com>",
+  "license": "MIT",
+  "main": "lib/main.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
